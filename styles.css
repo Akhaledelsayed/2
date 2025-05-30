@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background-color: #0047AB;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hero, .section {
+  padding: 16px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+.cta, .cta-small {
+  display: inline-block;
+  background: #FF5722;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  min-height: 44px;
+}
+
+.cta-small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-height: 44px;
+}
+
+.book-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.book-card, .basket-item {
+  background: #e0e0e0;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
+
+/* Responsive Grid for Tablets */
+@media (min-width: 600px) {
+  .book-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .book-card {
+    flex: 1 1 45%;
+  }
+}

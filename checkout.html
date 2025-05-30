@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bookify - Checkout</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">Bookify</div>
+    <div class="hamburger">&#9776;</div>
+  </header>
+
+  <section class="section">
+    <h2>Checkout</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="John Doe" required />
+
+      <label for="address">Address</label>
+      <input type="text" id="address" placeholder="123 Street Name" required />
+
+      <label for="payment">Payment Method</label>
+      <select id="payment" required>
+        <option>Credit Card</option>
+        <option>Cash on Delivery</option>
+      </select>
+
+      <button type="submit" class="cta">Confirm Order</button>
+    </form>
+  </section>
+
+  <footer>
+    Bookify &copy; 2025
+  </footer>
+</body>
+</html>
